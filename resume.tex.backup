@@ -1,0 +1,139 @@
+\documentclass[margin,line]{res}
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\usepackage{url,parskip} % Formatting packages
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\begin{document}
+
+\name{Arvind Nair \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{8in}}
+             & {\it Voice:}  +91 8129214323 \\              & {\it E-mail:}  \href{mailto:rvghostrider@gmail.com}{rvghostrider@gmail.com} \\
+             &{\it Quora:} \href{https://www.quora.com/profile/Arvind-Nair}{ArvindNair}
+   
+\end{tabular}
+
+\section{\sc Education}
+{\bf  Cochin University Of Science And Technology, }Kochi \\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.Tech in Computer Science and Engineering,  2013 - Present
+\item[] GPA: 7.2 / 10
+\end{list1}
+High School - {\bf Bal Bharati Public School, }Noida (CBSE) - 84.2\% \\ 
+Secondary School - {\bf Bal Bharati Public School, }Noida (CBSE) -  GPA: 9.4 / 10 \\
+
+\section{\sc Relevant Courses}
+
+\begin{tabular}{rlp{5cm}}
+
+\em{Computer Science:} & Data Structures and Algorithms, Computer Architecture, Networks,
+\\ & Operating Systems, Compilers, Data Commumication, Security, Microprocessors 
+\\ & Automata Languages and Computations, Database Management Systems, 
+\\ & Computer Graphics, Software Engineering \\
+
+\em{Electrical:} & Basic Electrical Engineering, Electronic Devices and Circuits, Digital Signal
+\\ & Processing, Modern Control Systems \\
+
+\em{Online:} & Machine Learning, Data Structures and Algorithms\\
+\end{tabular}
+
+\section{\sc Projects}
+
+%\vspace{-.1cm}
+\underline{\sc Online Judge for checking programming assignments } \hfill {\bf Fall, 2015-present}\\\\
+{\em Guide:} Mr. Vinod Kumar \\
+\\An Online Judge to check the correctness of programs submitted by students by showing various status flags such as AC, WA, RTE, TLE etc. It checks whether the program written by the student is same as the algorithm or not. Attendance of the student is also maintained.\\
+\\ {\bf Tools/Technologies} used- HTML5, CSS3, JS, PHP, Bootstrap, MySQL \\
+
+%\vspace{-.1cm}
+\underline{\sc Implementation of various Data Structures and Algorithms } \hfill {\bf Summer, 2015}\\\\
+\\ Implemented popular data structures such as Linked Lists, Stacks, Queues, BST's in \textsc{Java} and advanced DS \& Algorithms such as Tries, Suffix Arrays, Segment Trees, Fenwick Trees, Heavy-Light Decomposition, Centroid Decomposition, Persistent Segment Trees, Bridge Tree, LCA, RMQ etc in \textsc{C++}.\\ 
+
+
+
+\section{\sc Achievements}
+
+\begin{tabular}{rl}
+2012: &{\bf 3rd} position, NIU Quiz(out of 500 teams) \\
+2013: &{\bf Best School Team}, Landmark General Quiz \\
+2013: &{\bf 2nd} position, New Era General Quiz \\
+2013: &{\bf 2nd} position, VBPS Tech Quiz \\
+2014: &{\bf Semi-finals}, Member of Computer Science Cricket Team (Inter-department tournament) \\
+ 
+\end{tabular}
+
+
+\section{\sc Programming Competitions}
+
+\begin{tabular}{rl}
+Codechef: & \href{http://www.codechef.com/users/arvindnair}{arvindnair}, Top 5 \%ile in Long and Short contests \\
+HackerRank: &\href{https://www.hackerrank.com/arvind_nair1995}{arvind\_nair1995}, Blue rated in Algorithms track, \\
+& Peak Rating- 95.4 \%ile \\
+ACM ICPC: & Honorable Mention, ACM ICPC Amritapuri Regionals 2014 \\
+& Honorable Mention, ACM ICPC Amritapuri Regionals 2015 \\
+Ranks: &World Rank 87 in 101 Hack Jan'16 (out of 1.8K participants) \\
+&World Rank 351 in CodeAgon (out of 5K participants) \\
+&World Rank 207 in AdInfintum Math contest 13 (out of 1.2K participants) \\
+&World Rank 310 in March Long Challenge'16 (out of 5K participants) \\
+Miscellaneous: &Qualified the Facebook Hacker Cup, Google Code Jam qualification rounds\\
+& and many other hackathons \\
+Problem Solving: & Solved over 500 problems in various Online Judges \\
+
+\end{tabular}
+
+\section{\sc Affiliations} 
+\begin{tabular}{rl}
+2014 & HackerRank and HackerEarth Campus Ambassador\\
+2015 & Co-founder of {\em Programmers' Square}, an initiative to teach students basics of Computer Science \\
+2015 & {\em Student Member}, Association Of Computing Machinery(ACM) \\
+2016 & {\em Secretary}, Association of Computer Science and Engineering Students(ACES)\\
+
+\end{tabular}\\
+
+\section{\sc Technical Skills}
+
+\begin{tabular}{rl}
+Languages: & \textsc{C}, \textsc{C++}, \textsc{Java}, \textsc{Python}, \textsc{HTML5}, \textsc{PHP}, \textsc{CSS3}, \textsc{Javascript} , \textsc{SQL} , \textsc{Bootstrap} \\
+
+Softwares/Tools: & Git, Ubuntu, Windows, \textsc{LaTeX}, \textsc{STL}, BeautifulSoup, grep, \textsc{Matlab}, \textsc{OpenGL}\\
+
+\end{tabular}
+
+\section{\sc Academic Interests}
+Algorithms, Artificial Intelligence, Machine Learning, Operating Systems, Databases, Graph Theory, Discrete Mathematics
+
+\section{\sc Non-academic Interests}
+Programming, Cricket, Movies, Reading, Quizzing 
+
+\end{resume}
+\end{document}
